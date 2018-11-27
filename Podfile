@@ -8,6 +8,8 @@ target 'IOSFirebase' do
   # Pods for IOSFirebase
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
+	pod 'FirebaseUI/Auth'
+	pod 'FirebaseUI/Google'
 
   target 'IOSFirebaseTests' do
     inherit! :search_paths
