@@ -1,0 +1,30 @@
+https://www.lynda.com/Firebase-tutorials/Create-project-app/697722/748657-4.html
+
+In main Xcode project directory...
+
+#>> pod init
+
+Edit Podfile and add services ...
+
+  # Pods for IOSFirebase
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+
+
+#>> pod install
+
+A new .xcworkspace file is created to use as the Xcode project from this point on
+
+podfile.lock contains version information
+
+https://firebase.google.com/docs/auth
+
+
+
+
+Add     import Firebase    to AppDelegate.swift
+
+
+
+
+
